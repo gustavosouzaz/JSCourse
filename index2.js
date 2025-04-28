@@ -31,3 +31,16 @@ do {
     if (i % 2 !== 0) console.log(i);;
     i++
 }while (i <= 5);
+
+// for-in
+
+const person = {
+    name: 'Gustavo',
+    age: 24
+};
+
+for(let key in person)
+    console.log(key, person[key]);
+
+const colors = ['red', 'green', 'blue'];
+console.log(index2, colors[colors]);
